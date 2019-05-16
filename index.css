@@ -1,0 +1,51 @@
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Handon3gyeopsal600g'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+*{
+    font-family: 'Handon3gyeopsal600g'
+}
+.bar{
+    font-size: 2rem;
+    background-color: rgb(212, 248, 248);
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+    top:0;
+    position: sticky;
+    z-index: 10;
+    border-style: solid;
+    border-color: aquamarine;
+}
+.bar a{
+    color: #0C5460;
+    margin-right: 2em;
+    font-family: 'yg-jalnan'
+    
+}
+
+h2{
+    text-align: center;
+    font-family: 'yg-jalnan'
+}
+.fixed{
+    
+}
+
+.carousel-inner{
+    display: flex;
+    position: relative;
+}
+.carousel-item img{
+    max-width: 500px;
+}
+.carousel-item ul{
+    display:flex;
+    list-style: none;
+}
+.carousel-item ul li{
+    margin-right: 3em;
+}
+#sogae .int{
+    border-color: aqua;
+}
